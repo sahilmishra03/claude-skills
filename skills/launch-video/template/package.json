@@ -1,0 +1,13 @@
+{
+  "name": "launch-video",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "stills": "node record.cjs stills",
+    "poster": "node record.cjs poster",
+    "render": "node record.cjs video 30"
+  },
+  "dependencies": {
+    "playwright-core": "^1.65.0"
+  }
+}
